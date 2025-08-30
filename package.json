@@ -1,0 +1,10 @@
+{
+  "name": "framework-arduino-py32",
+  "version": "0.1.0",
+  "description": "Arduino Core for Puya PY32 MCUs",
+  "keywords": ["framework", "arduino", "py32", "puya"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/py32duino/Arduino-PY32.git"
+  }
+}
