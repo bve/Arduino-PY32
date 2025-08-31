@@ -1,0 +1,31 @@
+{
+  "name": "py32",
+  "title": "Puya PY32",
+  "description": "Platform for Puya PY32 microcontrollers",
+  "homepage": "https://github.com/bve/Arduino-PY32",
+  "license": "MIT",
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bve/Arduino-PY32.git"
+  },
+  "version": "0.1.0",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduino-py32",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "framework-arduino-py32": {
+      "type": "framework",
+      "version": "https://github.com/bve/Arduino-PY32.git"
+    },
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": "1.70201.0"
+    }
+  }
+}
